@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid: 1fr min-content / 1fr;
+  row-gap: 7.5rem;
+  place-items: center;
+  background: hsl(212, 45%, 89%);
+  padding: 8.5rem 2.8rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 32rem;
+  height: auto;
+  padding: 1.6rem;
+  background: white;
+  border-radius: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.4rem;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card__text {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1.6rem;
+  text-align: center;
+  padding-inline: 1.6rem;
+}
+
+.card__heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1f314f;
+}
+
+.card__detail {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: -0.019rem;
+  color: #7d889e;
+}
+
+.attribution {
+  color: #7d889e;
+  font-size: 1.4rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.attribution__link-container {
+  color: #626f87;
+}
+
+.attribution__link {
+  color: #404d63;
+  transition: all 250ms ease;
+}
+
+.attribution__link:is(:hover, :focus-within) {
+  color: rgb(183, 13, 152);
+}
