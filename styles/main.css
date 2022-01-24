@@ -16,7 +16,7 @@ body {
   width: 100%;
   max-width: 32rem;
   height: auto;
-  padding: 1.6rem;
+  padding: 1.6rem 1.6rem 4rem;
   background: white;
   border-radius: 2rem;
   display: flex;
